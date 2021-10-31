@@ -6,14 +6,10 @@ Adicionalmente, en la Tabla 1 se muestran los beneficios/costos económicos de l
 
 
 
-Fuga|
-No Fuga|
-Fuga
-5000
--100
-No Fuga
--1000
-0
+|         |  Fuga | No Fuga |
+|---------|:-----:|:-------:|
+|    Fuga |  5000 |   -100  |
+| No Fuga | -1000 |    0    |
 
 Tabla 1. Matriz de pagos de las acciones comerciales.
 
@@ -30,25 +26,25 @@ Una completa descripción de las variables recolectadas por cada cliente se pres
  
 1. FUGA: F=cliente fugado, NF= cliente activo (variable objetivo, última columna)
 2. CreditMes_T: Crédito en mes T
-CreditMes_T-1: Crédito en mes T-1
-CreditMes_T-2: Crédito en mes T-2
-NumTarjCred_T: Número de tarjetas de crédito en mes T
-NumTarjCred_T-1: Número de tarjetas de crédito en mes T-1
-NumTarjCred_T-2: Número de tarjetas de crédito en mes T-2
-Ingreso: Ingreso cliente
-Edad: Edad cliente
-NumTransWeb_T: Número de transacciones en web en mes T
-NumTransWeb_T-1: Número de transacciones en web en mes T-1
-NumTransWeb_T-2: Número de transacciones en web en mes T-2
-MargenComp_T: Margen del cliente para la compañía en mes T
-MargenComp_T-1: Mmargen del cliente para la compañía en mes T-1
-MargenComp_T-2: Margen del cliente para la compañía en mes T-2
-MargenComp_T-3: Margen del cliente para la compañía en mes T-3
-MargenComp_T-4: Margen del cliente para la compañía en mes T-4
-MargenComp_T-5: Margen del cliente para la compañía en mes T-5
-MargenComp_T-6: Margen del cliente para la compañía en mes T-6
-Telefono: La compañia posee el numero de telefono del cliente
-NivelEduc: Nivel Educacional del cliente
-Genero: Genero del cliente
-EstCivil: Estado civil del cliente
-Region: Region donde vive el cliente
+3. CreditMes_T-1: Crédito en mes T-1
+4. CreditMes_T-2: Crédito en mes T-2
+5. NumTarjCred_T: Número de tarjetas de crédito en mes T
+6. NumTarjCred_T-1: Número de tarjetas de crédito en mes T-1
+7. NumTarjCred_T-2: Número de tarjetas de crédito en mes T-2
+8. Ingreso: Ingreso cliente
+9. Edad: Edad cliente
+10. NumTransWeb_T: Número de transacciones en web en mes T
+11. NumTransWeb_T-1: Número de transacciones en web en mes T-1
+12. NumTransWeb_T-2: Número de transacciones en web en mes T-2
+13. MargenComp_T: Margen del cliente para la compañía en mes T
+14. MargenComp_T-1: Mmargen del cliente para la compañía en mes T-1
+15. MargenComp_T-2: Margen del cliente para la compañía en mes T-2
+16. MargenComp_T-3: Margen del cliente para la compañía en mes T-3
+17. MargenComp_T-4: Margen del cliente para la compañía en mes T-4
+18. MargenComp_T-5: Margen del cliente para la compañía en mes T-5
+19. MargenComp_T-6: Margen del cliente para la compañía en mes T-6
+20. Telefono: La compañia posee el numero de telefono del cliente
+21. NivelEduc: Nivel Educacional del cliente
+22. Genero: Genero del cliente
+23. EstCivil: Estado civil del cliente
+24. Region: Region donde vive el cliente
