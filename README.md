@@ -2,6 +2,30 @@
 
 Considere el problema que enfrenta una entidad financiera que tiene altas tasas de fuga voluntaria. Esta institución no tiene claro cuál es el perfil característico que tienen los clientes fugitivos ni cuáles son las razones por las cuales estos se fuga. Dentro de este contexto, le han encomendado a usted dos tareas fundamentales. La primera tarea consiste en desarrollar un modelo predictivo que permita identificar tempranamente cuáles clientes son más propensos a fugarse. La segunda tarea consiste en definir una serie de políticas comerciales que permitan retener a estos potenciales clientes fugitivos. 
 
+Adicionalmente, en la Tabla 1 se muestran los beneficios/costos económicos de los aciertos y errores en las predicciones. La decisión comercial del modelo de clasificación es definir a que clientes cobrarles con una tarifa normal y a que clientes ofrecerles una oferta.
+
+
+
+Fuga|
+No Fuga|
+Fuga
+5000
+-100
+No Fuga
+-1000
+0
+
+Tabla 1. Matriz de pagos de las acciones comerciales.
+
+De acuerdo con lo anterior, es necesario responder a las siguientes interrogantes expuesta por el gerente general: 
+
+1. ¿Qué hacer para que estos clientes no se fuguen? 
+2. ¿Cuáles son las acciones comerciales que deberíamos emprender con estos clientes? 
+3. ¿Se las aplico a todos los clientes? 
+4. ¿Cuál es el costo de estas iniciativas? 
+5. ¿Qué tipo de herramienta tecnológica necesito? 
+
+
 Una completa descripción de las variables recolectadas por cada cliente se presenta a continuación: 
  
 1. FUGA: F=cliente fugado, NF= cliente activo (variable objetivo, última columna)
