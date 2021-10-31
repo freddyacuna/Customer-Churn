@@ -4,8 +4,8 @@ Considere el problema que enfrenta una entidad financiera que tiene altas tasas 
 
 Una completa descripción de las variables recolectadas por cada cliente se presenta a continuación: 
  
-FUGA: F=cliente fugado, NF= cliente activo (variable objetivo, última columna)
-CreditMes_T: Crédito en mes T
+1. FUGA: F=cliente fugado, NF= cliente activo (variable objetivo, última columna)
+2. CreditMes_T: Crédito en mes T
 CreditMes_T-1: Crédito en mes T-1
 CreditMes_T-2: Crédito en mes T-2
 NumTarjCred_T: Número de tarjetas de crédito en mes T
